@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>AJAX Demo</title>
+<script>
+function ajaxdemo(){
+var xhttp = new XMLHttpRequest(); 
+var API_URL="https://jsonplaceholder.typicode.com/photos";
+xhttp.open("GET",API_URL,true);
+xhttp.send();
+
+xhttp.onreadystatechange=function(){
+ if(xhttp.readyState==4 && xhttp.status==200) 
+ {
+  var p=JSON.parse(xhttp.responseText);
+  
+  var tbl="<table border='1'><tr><th>AlbumID</th><th>ID</th><th>Title</th><th>URL</th><th>Thumbnail</th></tr>";
+  
+  p.map((row)=>{
+   tbl+="<tr>"; 
+   tbl+=("<td>"+row["albumId"]+"</td>");
+   tbl+=("<td>"+row["id"]+"</td>");
+   tbl+=("<td>"+row["title"]+"</td>");
+   tbl+=("<td><img src='"+row["url"]+"' height='100' width='100' alt='*Please wait'/></td>");
+   tbl+=("<td><img src='"+row["thumbnailUrl"]+"' height='100' width='100' alt='*Please wait'/></td>");
+   tbl+="</tr>";
+  });
+  	
+  tbl+="</table>";
+  
+document.getElementById("response").innerHTML=tbl;
+ }
+};
+}
+</script>
+</head>
+<body>
+<button onclick="ajaxdemo()">Click to make AJAX work</button>
+<br/><br/>
+<div id="response"></div>
+</body>
+</html>

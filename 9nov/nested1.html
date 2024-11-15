@@ -1,0 +1,29 @@
+<script>
+//WAP to add two 3*3 matrix
+
+var a=[[10,10,10],[10,10,10],[10,10,10]]
+var b=[[20,20,20],[20,20,20],[20,20,20]]
+var c=[]
+
+for(let i=0;i<3;i++)
+{
+ c.push([]);
+ for(let j=0;j<3;j++)
+ {
+  c[i].push(a[i][j]+b[i][j]);
+ }
+}
+
+document.write("<h1>Array C :</h1>");
+c.map((v,i)=>{
+ v.map((x,j)=>{
+  document.write(x+"&nbsp;&nbsp;");
+ });
+ document.write("<br>"); 
+});
+
+
+
+
+
+</script>

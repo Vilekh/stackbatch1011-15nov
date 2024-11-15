@@ -1,0 +1,23 @@
+JSON : key points
+
+-> It stands for Javascript object notation
+-> It is string formatted notation of JS object
+-> It is light weight proccess , i.e easy to transmit , proccess & manage big amount of data
+-> It is considered as common way to handle data between various application ends like web-web , web-mobile , api's etc
+-> It is supported by almost all technologies of real world
+
+Conversion methods :-
+
+JSON.stringify(JS_obj) : to convert JS object to string
+
+JSON.parse(JS_json) : to convert JS json to object
+ 
+-> JSON viewer tool : https://jsonviewer.stack.hu/
+
+-> JSON resource : https://jsonplaceholder.typicode.com/
+
+https://dummyjson.com/products
+
+
+
+ 

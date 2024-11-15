@@ -1,0 +1,16 @@
+<script>
+//Ternary operator : (con)?t:f;
+//WAP to check a 3-digit number is armstrong or not
+
+var n=153,d1,d2,d3;
+
+d1=parseInt(n/100);
+d2=parseInt(n/10)%10;
+d3=n%10;
+
+var new_n=d1**3+d2**3+d3**3;
+
+(n==new_n)?document.write("<h1>Number is armstrong</h1>"):document.write("<h1>Number is not armstrong</h1>");
+
+
+</script>

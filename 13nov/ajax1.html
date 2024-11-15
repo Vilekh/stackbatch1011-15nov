@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>JS Demo</title>
+<script>
+function AJAXDemo()
+{
+ var xhttp = new XMLHttpRequest();
+ var API_URL="https://jsonplaceholder.typicode.com/posts";
+ xhttp.open("GET",API_URL,true);
+ xhttp.send();
+ 
+ xhttp.onreadystatechange=function(){
+  if(xhttp.status==200 && xhttp.readyState==4)
+  {
+   var tbl="<table border='1'><tr><th>UserID</th><th>ID</th><th>Title</th><th>Body</th></tr>";
+   var pDetails=JSON.parse(xhttp.responseText);
+   pDetails.map((row)=>{
+    tbl+="<tr>";   
+    Object.keys(row).map((k)=>{
+     tbl+=("<td>"+row[k]+"</td>");	   
+    });
+    tbl+="</tr>";	
+   });
+  document.getElementById("response").innerHTML=tbl;
+  }  	
+ };
+ 
+ 
+ 
+}
+</script>
+</head>
+<body>
+<button onclick="AJAXDemo()" >Click To Make AJAX Work</button>
+<div id="response"></div>
+</body>
+</html>

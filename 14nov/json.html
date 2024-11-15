@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>AJAX Demo</title>
+<script>
+function ajaxdemo(){
+var xhttp = new XMLHttpRequest(); 
+var API_URL="https://jsonplaceholder.typicode.com/photos";
+xhttp.open("GET",API_URL,true);
+xhttp.send();
+
+xhttp.onreadystatechange=function(){
+ if(xhttp.readyState==4 && xhttp.status==200) 
+ {
+document.getElementById("response").innerHTML=xhttp.responseText;
+ }
+};
+}
+</script>
+</head>
+<body>
+<button onclick="ajaxdemo()">Click to make AJAX work</button>
+<br/><br/>
+<div id="response"></div>
+</body>
+</html>

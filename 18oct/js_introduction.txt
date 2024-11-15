@@ -1,0 +1,48 @@
+Javascript : It is client side script used to apply dynamic changes on web page without any page load like event programming , animations , validations etc.
+
+			OR
+
+Javascript : It is event based script i.e JS will not work untill event will be performed on web page , where event is activity which will call specific functionality
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+
+JS programming architecture :- JS is object oreinted programming , it follows all features of OOPS
+
+-> Encapsulation
+-> Polymorphism
+-> Abstraction
+-> Inheritance
+
+All features is used to implement code reusability , re-implementation , security & modularity at application level
+
+Note : JS follow ECMA script notations
+
+ES5<= : @2014 -> Object based OO  
+ES6>= : @2015 -> Class based OO  
+
+ECMA script notation LTS : ES15 : 2024 June
+
+
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+

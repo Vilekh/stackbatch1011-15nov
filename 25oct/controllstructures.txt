@@ -1,0 +1,77 @@
+Control structure : It is used to deploy code level decision making , iterations & switching at application level
+
+-> Conditional statement :- Used to implement decision making at application level
+
+* if statement
+
+syntax:
+
+if(condition)
+{
+ statements
+}
+
+------------------------------------------------------
+
+* if-else statement
+
+syntax:
+
+if(condition)
+{
+ statements
+}
+else
+{
+ statements
+}
+
+------------------------------------------------------
+
+* ladder ifelse statement(if-elseif-else)
+
+syntax:
+
+if(condition)
+{
+ statements
+}
+else if(condition)
+{
+ statements
+}
+else if(condition)
+{
+ statements
+}
+else
+{
+ statements
+}
+
+--------------------------------------------------------------
+
+* switch 
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+
+-> Control statement :- Used to implement iteration application level(loop) 
+
+for number data :-
+
+* do-while loop
+* while loop
+* for loop
+
+for sequence data :-  
+
+* for-in loop
+* for-of loop
+
+-> Switching statements : It is used to switch from one application end to another
+
+*break
+*continue
+
+ 

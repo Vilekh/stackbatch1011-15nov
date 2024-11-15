@@ -1,0 +1,99 @@
+Operators : Those programming entity which perform operation on operands are operator
+
+a+b -> (a+b):expression , (a,b):operands , (+):operator
+
+--------------------------------------------------------------
+
+Classification of operators :- operators are classified on the basis of number of operands
+
+-> Unary operator : 1 operand : ++ , --
+
+-> Binary operator : 2 operand : + , = , > , && , |
+
+-> Ternary or Conditional operator : 3 operand
+(condition)?true statement:false statement;
+
+
+--------------------------------------------------------------
+
+Types of operators :-
+
+-> Arithmatic operator : + , - , * , / , % , **
+
+-> Assignment operator : = , += , -= , *= , /= , %=
+
+-> Comparison operator : == , === , > , < , >= , <= , !=
+
+-> Logical operator : && , || , !
+
+-> Bitwise operator : & , | , ^ , ~ , << , >>
+
+-> Increment/Decrement operator : ++ , --
+
+-> Ternary or Conditional operator -- (con)?t:f; 
+
+-> Special operator : typeof
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+Bitwise operator : & , | , ^ , ~ , << , >>
+
+a=121 : 0111 1001
+b=113 : 0111 0001
+---------------------------------------------------------------
+a&b :  0111 0001 : 113
+a|b :  0111 1001 : 121
+a^b :  0000 1000 : 8
+
+~a : -(a+1) : -122
+---------------------------------------------------------------
+left shift operator : a<<3
+		MSB <-- 0111 1001 : LSB
+		    011 1100 1000 : 968	
+---------------------------------------------------------------
+right shift operator : b>>2 : 28
+		MSB <-- 0111 0001 : LSB
+		        0001 1100 01 : ignore extra bit
+		         	
+---------------------------------------------------------------
+
+truth table :-
+
+a b a&b a|b a^b
+0 0  0   0    0     
+0 1  0   1    1
+1 0  0   1    1
+1 1  1   1    0
+
+---------------------------------------------------------------
+
+Bit's representation :
+ <- MSB                        LSB
+  2^7 2^6 2^5 2^4  2^3 2^2 2^1 2^0
+  --------------------------------
+                octal                
+                   ---------------
+                         quad
+---------------------------------------------------------------
+Decimal representation :
+             128 64 32 16    8 4 2 1
+---------------------------------------------------------------
+21 : 0001 0101
+13 : 0000 1101
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

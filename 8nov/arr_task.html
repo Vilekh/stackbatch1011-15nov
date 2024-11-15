@@ -1,0 +1,23 @@
+<script>
+//WAP to sort array elements (bubble sort)
+
+var ar=[10,210,130,410,150,610,170];
+
+document.write("<h1>Before sort ar : "+ar+"</h1>");
+
+for(let j=0;j<ar.length-1;j++)
+{
+ for(let i=0;i<ar.length-1;i++)
+ {
+  if(ar[i]<ar[i+1])
+  {
+   let temp=ar[i];
+   ar[i]=ar[i+1];
+   ar[i+1]=temp;
+  }
+ }
+} 
+
+document.write("<h1>After sort ar : "+ar+"</h1>");
+
+</script>

@@ -1,0 +1,18 @@
+<script>
+//WAP to check a number is armstrong or not 
+
+var n=151;
+var new_n=n,s=0;
+
+while(n>0)
+{
+ let d=n%10;
+ s+=(d**3);
+ n=parseInt(n/10);
+}
+
+if(new_n==s)
+ document.write("<h1>Number is armstrong</h1>");
+else
+ document.write("<h1>Number is not armstrong</h1>");
+</script>

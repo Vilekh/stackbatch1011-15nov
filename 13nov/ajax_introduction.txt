@@ -1,0 +1,62 @@
+AJAX : It stands for Asynchronous Javascript & XML , it is a client side mechanism which is used to implement dynamic changes on webpage without any page load.
+
+like : -> country-state-city drop down
+       -> email avaibility check
+       -> dynamic field generator
+
+		   or
+
+AJAX : It stands for Asynchronous Javascript & XML , where Asynchronous stands for asynchronous request response between client & server ,i.e request will be send & response will be recieved but when it is not certain. Entire implementation will be done by using JS & XML
+
+--------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+
+AJAX Lifecycle :-
+
+client end :-
+
+-> Create 'XMLHttpRequest' prototype instance
+-> Create http request by using 'open' method
+-> Send request by using 'send' method
+
+   
+server end :-
+
+-> Recieve request upcoming from client end	: 0
+-> Request undertaken to be processed : 1
+-> Request under proccess	:2
+-> Request processed & response generated : 3
+-> Response send back : 4
+								
+client end :-
+
+-> Recieve response & proccess it
+-> Show response by using JS & XML 
+
+Response Header :-
+
+1) onreadystatechange : it is even which will be default invoked , when request is recieved from server to client
+
+2) status
+3) readyState : shows request processing status on server end , given by number
+	0,1,2,3,4
+	
+Note : expected status=200 & readyState=4 , for proper response
+
+4) responseText : it is response content from server to client as per request	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            

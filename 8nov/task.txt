@@ -1,0 +1,32 @@
+-> WAP to add all elements of 7 elements array
+
+-> WAP to create array containing 10-element , where element at odd index(1,3,5,7,9) must be printed
+element at even index(0,2,4,6,8) must be added
+
+-> WAP to search element inside array
+
+-> WAP to reverse array elements
+     0  1  2  3  4
+ar=[10,20,30,40,50]
+     {logic}
+ar=[50,40,30,20,10]
+
+-> WAP to sort array elements (bubble sort)
+
+
+0 - 10 20 20 20 20
+1 - 20 10 30 30 30
+2 - 30 30 10 40 40  pass I ( no of pass=total ele -1)
+3 - 40 40 40 10 50
+4 - 50 50 50 50 10
+
+-> WAP to get max element from 10 elements array
+
+
+
+
+
+
+
+
+

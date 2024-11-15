@@ -1,0 +1,34 @@
+-> WAP to get ASCII value of following keyboard keys
+
+* space
+* enter
+* tab
+* ascii range of 0-9
+
+-> WAP to predict result of following
+
+case 1 : a=100 , b=200.67
+a+b , a/b , a*b
+
+case 2 : a=100 , b="hello"
+a+b , a*b
+
+case 3 : a="hello" , b="world"
+a+b , a*b
+
+case 4 : a=true , b=false
+a+b , a*b
+
+case 5 : a=true , b=100
+a+b , a*b
+
+------------------------------------------------------
+
+key point :
+
+-> num-str : + concatination operator
+
+-> str-str : + concatination operator
+
+-> while working with arithmatic operator true is considered as 1 , while false is considered as 0
+

@@ -1,0 +1,95 @@
+Operators : Those programming entity which perform operation on operands are operator
+
+a+b -> (a+b):expression , (a,b):operands , (+):operator
+
+--------------------------------------------------------------
+
+Classification of operators :- operators are classified on the basis of number of operands
+
+-> Unary operator : 1 operand : ++ , --
+
+-> Binary operator : 2 operand : + , = , > , && , |
+
+-> Ternary or Conditional operator : 3 operand
+(condition)?true statement:false statement;
+
+
+--------------------------------------------------------------
+
+Types of operators :-
+
+-> Arithmatic operator : + , - , * , / , % , **
+
+-> Assignment operator : = , += , -= , *= , /= , %=
+
+-> Comparison operator : == , === , > , < , >= , <= , !=
+
+-> Logical operator : && , || , !
+
+-> Bitwise operator : & , | , ^ , ~ , << , >>
+
+-> Increment/Decrement operator : ++ , --
+
+-> Ternary or Conditional operator -- (con)?t:f; 
+
+-> Special operator : typeof
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+
+Bitwise operator : & , | , ^ , ~ , << , >>
+
+a=21 : 0001 0101
+b=13 : 0000 1101   
+---------------------------------------------------------------
+a&b :  0000 0101 : 5 
+a|b :  0001 1101 : 29
+a^b :  0001 1000 : 24
+
+~a : -(a+1) : -22
+---------------------------------------------------------------
+
+truth table :-
+
+a b a&b a|b a^b
+0 0  0   0    0     
+0 1  0   1    1
+1 0  0   1    1
+1 1  1   1    0
+
+---------------------------------------------------------------
+
+Bit's representation :
+ <- MSB                        LSB
+  2^7 2^6 2^5 2^4  2^3 2^2 2^1 2^0
+  --------------------------------
+                octal                
+                   ---------------
+                         quad
+
+---------------------------------------------------------------
+
+Decimal representation :
+ 
+             128 64 32 16    8 4 2 1
+
+---------------------------------------------------------------
+
+21 : 0001 0101
+13 : 0000 1101 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

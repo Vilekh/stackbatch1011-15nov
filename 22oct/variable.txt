@@ -1,0 +1,32 @@
+Variable : This are reserve memory block used to store data ,type of data stored in variable will be given by its datatype. As JS(ES5) is object based object oreinted in nature. Hence in JS variables are refrence
+
+JS reference variable : This are reserve memory block capable to store specific type of data, type of data will be manages internally as per data refered
+
+syntax:
+
+var ref_var_name
+ref_var_name=value
+
+or 
+
+var ref_var_name=value
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+c :
+
+int a;
+a=10;
+    
+int d=10;
+
+
+
+
+
+
+
+
+
+
